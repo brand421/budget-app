@@ -1,0 +1,12 @@
+.header {
+    display: fixed;
+    text-align: center;
+}
+
+.app__title {
+    margin-bottom: 0;
+}
+
+.app__subtitle {
+    margin-top: 0;
+}
