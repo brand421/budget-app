@@ -7,9 +7,9 @@ import Body from "./Body/Body";
 function AnimatedRoutes() {
   const location = useLocation();
   return (
-    <AnimatePresence mode="wait">
+    <AnimatePresence>
       <Routes location={location} key={location.pathname}>
-        <Route index element={<Landing />} />
+        <Route path="/" element={<Landing />} />
         <Route path="budgit" element={<Body />} />
       </Routes>
     </AnimatePresence>

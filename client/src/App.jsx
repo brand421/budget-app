@@ -6,9 +6,8 @@ import AnimatedRoutes from "./components/AnimatedRoutes";
 function App() {
   return (
     <BrowserRouter>
-      <Header>
-        <AnimatedRoutes />
-      </Header>
+      <Header />
+      <AnimatedRoutes />
     </BrowserRouter>
   );
 }
