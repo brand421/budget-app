@@ -9,8 +9,8 @@ function AnimatedRoutes() {
   return (
     <AnimatePresence>
       <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<Landing />} />
-        <Route path="budgit" element={<Body />} />
+        {/* <Route path="/" element={<Landing />} /> */}
+        <Route path="/" element={<Body />} />
       </Routes>
     </AnimatePresence>
   );
